@@ -1,0 +1,57 @@
+.abt-bg-img{
+background-image: url(../img/indiaatolympic.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 65vh;
+  z-index: -1;
+}
+
+.section .main-box p{
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.table {
+  margin-left: 30px;
+  float: right;
+  width: 40%;
+  box-sizing: border-box;
+  border-spacing: 2px;
+}
+td,
+th {
+  color: white;
+  border: 1px solid rgb(63, 61, 61);
+  padding: 10px 15px;
+}
+
+td {
+  color: #56585a;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #e5e8ed;
+}
+
+tr.tr-header {
+  background-color: #56585a;
+  height: 50px;
+}
+
+.tr-footer th{
+  color: #424344;
+}
+
+tr.tr-footer{
+  color:#56585a;
+  height: 50px;
+}
+.footer {
+  background-color: #D1C4E9;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
